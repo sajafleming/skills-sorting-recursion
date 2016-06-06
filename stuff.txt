@@ -1,0 +1,30 @@
+Recursion:
+    1. Recursion is a function that calls itself. It is good to use when the problem can be broken down into smaller problems that are solved the same way.
+    2. If there is no base case the program will get stuck in an infinite loop =O
+
+Graphs:
+    1. A graph is a way of mapping relationships between nodes 
+    2. Unlike a tree, a graph will allow circlular relationships so there's no idea of "children"
+    3. Most social media sites use graphs to map relationships between people and topics.
+
+Performance of Different Data Structures:
+Python List:                   O(n), O(n), O(1)
+Linked List: O(n), O(n), O(1), O(1), O(1), O(n) 
+DoublL List: O(n), O(n), O(1), O(1), O(1), O(1)
+Queue(array):            O(1)        O(n)
+Queue(LL,DL):            O(1)        O(1)
+Stack:                   O(1)              O(1)
+Deque:                   O(1), O(1), O(1), O(1)
+
+Set (Hash map): O(1) O(1) O(1) O(n) medium
+Binary Tree: O(logn) O(n) O(n) O(1) little 
+Tree:           O(n) O(1) O(1) O(1) little
+
+Sorting:
+    1. Bubble compares two numbers and switches them if the one on the left is bigger than the one on the right. The first time through the list, the biggest number will make it to the end. But it has to keep iterating through the list to make sure all items are in place. You can keep track of when swaps happen so that the it will know when it;s sortedto make the runtime slightly better.
+    2. Merge sort splits a list into smaller pre-sorted lists aka lists of one. The lists are then all merged back together.
+    3. Same runtime as merge sort, but it runs in place. Yay! Pivots are randomly put throughout the list. Numbers smaller than the pivot will move to the left of the pivot and bigger numbers to the right. 
+
+Git Branching:
+    1. Use git branching when you want to add a feature but don't want to ruin the fact that the code you have is beautiful and working.
+    2. A pull request is a tool on github used to review that new feature you added before merging it into the master code. This is used at company's for code reviews and making sure what they are integrating is not breaking existing parts of their code. 
